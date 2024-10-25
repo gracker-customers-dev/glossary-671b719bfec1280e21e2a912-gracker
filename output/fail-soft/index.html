@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            fail soft
+                
+    </title>
+    <meta name="description" content="A fault tolerance strategy where a system continues to operate at a reduced level of functionality in the event of a failure.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    Network Security Fundamentals - GrackerAI
+</title>
+<link rel="icon" type="image/x-icon" href="https://gracker.ai/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #000000;
+                        --secondary-color: #FFFFFF;
+                        --background-color: #F0F0F0;
+                        --text-color: #333333;
+                        --accent-color: #FF0000;
+                        --font-primary: Bricolage Grotesque, Arial, sans-serif;
+                        --font-secondary: Poppins, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="/"><img src="https://gracker.ai/_astro/logo-white.DuNP12gY_Z22gpAz.svg" 
+                onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://gracker.ai">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://portal.gracker.ai/" class="btn btn-primary show-in-mobile demo-btn">
+                            Get started — it&#39;s free
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://portal.gracker.ai/" class="btn btn-ghost dark hide-in-mobile">
+                Get started — it&#39;s free
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>fail soft</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>fail soft</h1>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A fault tolerance strategy where a system continues to operate at a reduced level of functionality in the event of a failure.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>Fail soft is a design principle used in network security and systems engineering that allows a system to maintain some level of operational capability even when certain components fail. Unlike a &#39;fail hard&#39; approach, which completely shuts down the system or service upon encountering an error or fault, fail soft enables the system to degrade gracefully. This means that while some functions may be impaired or limited, users can still access essential features or data. This approach is particularly valuable in critical systems where uptime is essential, as it minimizes the impact of failures on users and services. For example, if a network service experiences a partial failure, it might restrict access to certain features rather than shutting down entirely, allowing users to continue working with the remaining capabilities. Implementing fail soft mechanisms requires comprehensive design considerations and thorough testing to ensure that degraded modes of operation are usable and secure. It helps in maintaining user confidence and satisfaction during adverse events.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>A web application that continues to serve static content even when dynamic features are experiencing issues.</li>
+<li>A network router that reroutes traffic to alternative paths when a primary link goes down, preserving overall connectivity.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Fail soft mechanisms can involve redundancy, load balancing, and graceful degradation strategies.</li>
+<li>It is crucial to balance between maintaining functionality and ensuring security during partial failures.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://blogs.keysight.com/blogs/tech/nwvs.entry.html/2020/05/20/fail_closed_failop-ZYAt.html">Fail Closed, Fail Open, Fail Safe and Failover: ABCs of Network Visibility</a></li>
+<li><a href="https://community.microfocus.com/cyberres/b/sws-22/posts/security-fundamentals-part-1-fail-open-vs-fail-closed">Security Fundamentals Part 1: Fail Open vs. Fail Closed</a></li>
+<li><a href="https://seclists.org/basics/2010/Sep/140">difference between fail open, fail safe, fail close,fail over !!</a></li>
+<li><a href="https://seclists.org/basics/2010/Sep/163">difference between fail open, fail safe, fail close,fail over !!</a></li>
+<li><a href="https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/failing-securely">Failing Securely</a></li>
+<li><a href="https://nsrc.org/activities/agendas/en/cndo/networking/cndo/en/labs/l3_ingress_and_egress_filtering.html">Filtering Lab</a></li>
+<li><a href="https://www.irongeek.com/i.php?page=videos/hack3rcon5/h03-introducing-network-scout-defending-the-soft-center-of-your-network">Introducing Network-Scout: Defending The Soft Center of Your Network</a></li>
+<li><a href="https://csf.tools/reference/nist-sp-800-53/r5/si/si-17/">Fail-safe Procedures - CSF Tools</a></li>
+<li><a href="https://beta.computer-networking.info/syllabus/default/principles/security.html">Network security — Computer Networking : Principles, Protocols and Practice</a></li>
+<li><a href="https://learningnetwork.cisco.com/s/topic/0TO6e000000WEowGAG/network-fundamentals">Cisco Learning Network</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="/">
+                  <img src="https://gracker.ai/_astro/logo-white.DuNP12gY_Z22gpAz.svg" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                &copy; Copyright 2024, Gracker.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://www.linkedin.com/company/gracker-ai/" target="_blank" rel="noopener noreferrer">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://x.com/grackerAI" target="_blank" rel="noopener noreferrer">
+                                    Twitter
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.instagram.com/grackerai/" target="_blank" rel="noopener noreferrer">
+                                    Instagram
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>
